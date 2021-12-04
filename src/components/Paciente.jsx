@@ -6,7 +6,7 @@ const Paciente =({paciente, setPaciente, eliminarPaciente}) =>{
     const handleEliminar =() => {
         const respuesta = confirm('Desea eliminar ese paciente?');
 
-        if(respuesta){
+        if(respuesta) {
             eliminarPaciente(id)
         }
     }
